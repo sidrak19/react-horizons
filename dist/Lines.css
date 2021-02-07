@@ -1,0 +1,21 @@
+.svg-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+@keyframes move {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.back-line {
+  stroke-dasharray: calc(1.4142 * 100px);
+  stroke-dashoffset: calc(1.4142 * 100px);
+  animation-name: move;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}

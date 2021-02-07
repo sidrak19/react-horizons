@@ -44,5 +44,17 @@
   "devDependencies": {
     "@babel/cli": "^7.12.13",
     "@babel/preset-react": "^7.12.13"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidrak19/react-horizons.git"
+  },
+  "author": "sidrakesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidrak19/react-horizons/issues"
+  },
+  "homepage": "https://github.com/sidrak19/react-horizons#readme"
 }
